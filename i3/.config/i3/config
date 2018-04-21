@@ -89,6 +89,9 @@ font pango:Noto Sans Mono, FontAwesome, Ionicons, 14px
     # lock
     bindsym $mod+z exec $lockscreen
 
+    # sleep
+    bindsym $mod+Shift+z exec $suspend
+
     # reload the configuration file
     bindsym $mod+r reload
 
@@ -100,7 +103,6 @@ font pango:Noto Sans Mono, FontAwesome, Ionicons, 14px
 
     # direct power keys
     bindsym $mod+Control+Shift+w exec $logout
-    bindsym $mod+Control+Shift+z exec $suspend
     bindsym $mod+Control+Shift+r exec $reboot
     bindsym $mod+Control+Shift+e exec $shutdown
 #
