@@ -74,8 +74,8 @@ alias cg='cppgo'
 
 # editor aliases
 (( $+EDITOR )) && alias e=$EDITOR
+(( $+VISUAL )) && alias ve=$VISUAL
 alias se=sudoedit
-(( $+VISUAL )) && alias v=$VISUAL
 
 (( $+commands[xdg-open] )) && alias o='xdg-open'
 
