@@ -8,6 +8,18 @@ settings:
       q: quit
       w: session-save
       wq: quit --save
+  bindings.commands:
+    global: null
+  bindings.key_mappings:
+    global:
+      <Ctrl-6>: <Ctrl-^>
+      <Ctrl-Enter>: <Ctrl-Return>
+      <Ctrl-J>: <Return>
+      <Ctrl-M>: <Return>
+      <Ctrl-[>: <Escape>
+      <Enter>: <Return>
+      <Shift-Enter>: <Return>
+      <Shift-Return>: <Return>
   colors.hints.bg:
     global: rgba(0, 0, 0, 0.6)
   colors.hints.fg:
