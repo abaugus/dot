@@ -64,8 +64,8 @@ smart_gaps on
 #
 # Borders:
 #
-new_window pixel
-new_float pixel
+default_border pixel
+default_floating_border pixel
 hide_edge_borders none
 #smart_borders on
 #
