@@ -153,9 +153,6 @@ font pango:Noto Sans Mono, FontAwesome, Ionicons, 14px
     # task manager
     bindsym $mod+g exec $taskmanager
 
-    # restart dunst
-    bindsym $mod+Shift+d exec systemctl --user restart dunst && notify-send 'dunst restarted'
-
     # kill focused window
     bindsym $mod+w kill
 

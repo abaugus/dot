@@ -12,7 +12,7 @@ stow $STOW_OPTIONS emacs gpg git stack vim zsh
 # linux (i3+xfce4)
 if (( ! $+WSL )); then
     stow $STOW_OPTIONS \
-        compton dunst fontconfig i3 i3blocks mpv onedrive \
+        compton fontconfig i3 i3blocks mpv onedrive \
         pulseaudio-ctl qutebrowser ranger variety xdg xfce4
 
     #sudo stow $STOW_OPTIONS --target=/ root-sshtunnel
