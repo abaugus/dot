@@ -115,3 +115,9 @@ alias ipinfo='curl -s ipinfo.io/json'
 
 # no more!!
 alias sl=ls
+
+# docker pruning aliases
+alias dpvol='docker volume prune'
+alias dpimg='docker image prune'
+alias dpnet='docker network prune'
+alias dpcon='docker container prune'
