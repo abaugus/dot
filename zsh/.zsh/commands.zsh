@@ -90,7 +90,7 @@ function do-ssh () {
 }
 
 # restart and check status
-re () {
+function re () {
     if [[ -n $@ ]]; then
         sudo systemctl restart $@ && watch systemctl status $@
     else
@@ -99,7 +99,7 @@ re () {
 }
 
 # check status
-wa () {
+function wa () {
     if [[ -n $@ ]]; then
         watch systemctl status $@
     else
