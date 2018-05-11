@@ -9,5 +9,5 @@ X-GNOME-WMName=i3
 X-GNOME-Autostart-Phase=WindowManager
 X-GNOME-Provides=windowmanager
 X-GNOME-Autostart-Notify=false
-Hidden=false
+Hidden=true
 
