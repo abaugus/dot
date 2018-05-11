@@ -12,7 +12,11 @@ source ~/.zsh/variables.zsh
 fpath=(~/.zsh/completions $fpath)
 
 # load antigen
-source ~/.zsh/antigen/bin/antigen.zsh
+if [[ ! -d ~/.antigen/antigen ]]; then
+    echo "Installing antigen"
+    antigen-install || echo "Installation of antigen failed. Exiting." && exit
+fi
+source ~/.antigen/antigen/antigen.zsh
 
 # load bundles from antigen config
 antigen init ~/.antigenrc
