@@ -1,12 +1,8 @@
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
 [user]
-	name = Sumit Sahrawat
-	email = sumitsahrawat@outlook.com
-	signingkey = 8CA713D42039C32A
-[push]
-	default = simple
-[url "git@github.com:"]
-	insteadOf = gh:
-[url "https://aur.archlinux.org/"]
-	insteadOf = aur:
-[commit]
-	gpgsign = true
+	name = abaugus
+	email = abhishekbind2013@gmail.com
