@@ -31,15 +31,3 @@ elif (( $+commands[firefox] )); then
     export BROWSER=firefox
 fi
 
-if [[ $(cat /proc/version) =~ "Microsoft" ]]; then
-    export WSL=true
-
-    # wsl and nice don't play nice
-    unsetopt BG_NICE
-
-    # vcxsrv
-    export DISPLAY=:0
-fi
-
-# fix pinentry-curses
-export GPG_TTY=$(tty)

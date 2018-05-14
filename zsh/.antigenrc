@@ -107,7 +107,7 @@ antigen bundle hlissner/zsh-autopair
 antigen bundle ael-code/zsh-colored-man-pages
 
 # solarized dircolors
-antigen bundle joel-porquet/zsh-dircolors-solarized
+# antigen bundle joel-porquet/zsh-dircolors-solarized
 
 # display hints right under the editing buffer (maybe later)
 #antigen bundle joepvd/zsh-hints
